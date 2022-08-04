@@ -68,7 +68,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Diabetesmellitus",
-            range_color=(0, 100000),
+            range_color=(0, 80000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -77,7 +77,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Meningitis",
-            range_color=(0, 100000),
+            range_color=(0, 25000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -95,7 +95,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Neoplasms",
-            range_color=(0, 100000),
+            range_color=(0, 600000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -104,7 +104,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Fire,heat,andhotsubstances",
-            range_color=(0, 100000),
+            range_color=(0, 7000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -113,7 +113,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Malaria",
-            range_color=(0, 100000),
+            range_color=(0, 70000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -122,7 +122,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Drowning",
-            range_color=(0, 100000),
+            range_color=(0, 30000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -131,7 +131,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Interpersonalviolence",
-            range_color=(0, 100000),
+            range_color=(0, 30000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -140,7 +140,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Drugusedisorders",
-            range_color=(0, 100000),
+            range_color=(0, 30000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -158,7 +158,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Roadinjuries",
-            range_color=(0, 100000),
+            range_color=(0, 70000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -167,7 +167,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Maternaldisorders",
-            range_color=(0, 100000),
+            range_color=(0, 15000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -176,7 +176,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Lowerrespiratoryinfections",
-            range_color=(0, 100000),
+            range_color=(0, 200000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -185,7 +185,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Neonataldisorders",
-            range_color=(0, 100000),
+            range_color=(0, 50000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -194,7 +194,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Alcoholusedisorders",
-            range_color=(0, 100000),
+            range_color=(0, 10000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -203,7 +203,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Exposuretoforcesofnature",
-            range_color=(0, 100000),
+            range_color=(0, 7000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -212,7 +212,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Diarrhealdiseases",
-            range_color=(0, 100000),
+            range_color=(0, 120000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -221,7 +221,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Environmentalheatandcoldexposure",
-            range_color=(0, 100000),
+            range_color=(0, 10000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -230,7 +230,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Nutritionaldeficiencies",
-            range_color=(0, 100000),
+            range_color=(0, 50000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -239,7 +239,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Self-harm",
-            range_color=(0, 100000),
+            range_color=(0, 50000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -248,7 +248,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Conflictandterrorism",
-            range_color=(0, 100000),
+            range_color=(0, 10000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -257,7 +257,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Poisonings",
-            range_color=(0, 100000),
+            range_color=(0, 10000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -266,7 +266,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Protein-energy malnutrition",
-            range_color=(0, 100000),
+            range_color=(0, 20000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -275,7 +275,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Terrorism (deaths)",
-            range_color=(0, 100000),
+            range_color=(0, 1000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -284,7 +284,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Cardiovasculardiseases",
-            range_color=(0, 100000),
+            range_color=(0, 1000000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -293,7 +293,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Chronickidneydisease",
-            range_color=(0, 100000),
+            range_color=(0, 400000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -302,7 +302,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Chronicrespiratorydiseases",
-            range_color=(0, 100000),
+            range_color=(0, 150000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -311,7 +311,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Cirrhosisandotherchronicliverdiseases",
-            range_color=(0, 100000),
+            range_color=(0, 70000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -320,7 +320,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Digestivediseases",
-            range_color=(0, 100000),
+            range_color=(0, 130000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -329,7 +329,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Acutehepatitis",
-            range_color=(0, 100000),
+            range_color=(0, 10000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -338,7 +338,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Alzheimer'sdiseaseandotherdementias",
-            range_color=(0, 100000),
+            range_color=(0, 50000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
@@ -347,7 +347,7 @@ def update_output(selection):
             df,
             locations="Code",
             color="Parkinson'sdisease",
-            range_color=(0, 100000),
+            range_color=(0, 20000),
             hover_name="Entity",
             color_continuous_scale=px.colors.sequential.Turbo,
             animation_frame="Year"
